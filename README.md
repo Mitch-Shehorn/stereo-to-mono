@@ -11,16 +11,16 @@
 
 //Advanced options
 - Specify a different directory
-    python stereo_to_mono_converter.py --dir /path/to/your/samples
+  - python stereo_to_mono_converter.py --dir /path/to/your/samples
 
 - Use a different conversion method
-    python stereo_to_mono_converter.py --method left
+  - python stereo_to_mono_converter.py --method left
 
 - Change the prefix for output files (default is "mono_")
-    python stereo_to_mono_converter.py --prefix "m_"
+  - python stereo_to_mono_converter.py --prefix "m_"
 
 - Only check for phase issues without converting
-    python stereo_to_mono_converter.py --check-phase
+  - python stereo_to_mono_converter.py --check-phase
   
 //Phase Cancellation Detection & Mitigation
 - The core of the program analyzes the correlation between left and right channels. When it detects negatively correlated audio (indicating potential phase issues), it:
