@@ -12,13 +12,10 @@
 //Advanced options
 - Specify a different directory
   - python stereo_to_mono_converter.py --dir /path/to/your/samples
-
 - Use a different conversion method
   - python stereo_to_mono_converter.py --method left
-
 - Change the prefix for output files (default is "mono_")
   - python stereo_to_mono_converter.py --prefix "m_"
-
 - Only check for phase issues without converting
   - python stereo_to_mono_converter.py --check-phase
   
