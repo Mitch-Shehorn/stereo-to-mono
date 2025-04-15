@@ -1,3 +1,6 @@
+## Development Stage
+Complete
+
 ## stereo-to-mono basic information
 - Copies and converts an entire folder of stereo audio files into new mono files. Audio phase issues are mitigated by functions within the code.
 
@@ -26,7 +29,7 @@
   - Applies intelligent channel weighting to preserve maximum audio information
 
 ## Multiple Conversion Methods
-- The program supports four different conversion strategies:
+### The program supports four different conversion strategies:
   - phase_aware (default): Intelligently handles phase issues by analyzing and correcting before mixing
   - avg: Standard averaging of both channels (L+R)/2
   - left: Uses only the left channel (avoids phase cancellation but loses stereo information)
