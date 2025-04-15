@@ -1,18 +1,19 @@
 ## Development Stage
 Complete
 
-## stereo-to-mono basic information
+
+## Stereo-to-Mono Basic Information
 - Copies and converts an entire folder of stereo audio files into new mono files. Audio phase issues are mitigated by functions within the code.
 
-## Install required dependancies
+## Install Required Dependancies
 - python
 - pip install numpy soundfile tqdm
 
-## Run the program
+## Run the Program
 - place stereo_to_mono_converter.py in the folder with the stereo files that you want to be mono
 - execute "python stereo_to_mono_converter.py" in the command prompt (that has been directed to the same folder)
 
-## Advanced options
+## Advanced Options
 - Specify a different directory
   - python stereo_to_mono_converter.py --dir /path/to/your/samples
 - Use a different conversion method
